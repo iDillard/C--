@@ -55,9 +55,6 @@ double calcCharges(double hours, char commercial){
     {
         return minimumFee + commercialCharge;
     }
-
-    return minimumFee;
-    
 }
 
 int main(){
@@ -99,7 +96,6 @@ int main(){
 
     // close outfile
     outfile.close();
-
     return 0;
 
 }
